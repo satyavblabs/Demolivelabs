@@ -1,0 +1,40 @@
+{
+  "workshoptitle": "Oracle AI Database@Azure Enterprise Architecture",
+  "tutorials": [
+    {
+      "title": "Introduction",
+      "description": "Explore how Oracle database services connect Azure resource management with Oracle Cloud Infrastructure (OCI) database operations. This workshop is intended for enterprise architects and technical teams evaluating the deployment and management experience.",
+      "filename": "../../introduction/introduction.md"
+    },
+    {
+      "title": "Lab 1: Review and provision database resources",
+      "description": "Review preprovisioned Autonomous AI Database, Base Database, Exascale, and GoldenGate resources, with optional provisioning.",
+      "filename": "../../create-databases/create-databases.md"
+    },
+    {
+      "title": "Lab 2: Inspect Azure subscriptions and networking",
+      "description": "Inspect the Azure subscription, resource group, virtual network, and delegated subnet used by the demonstration.",
+      "filename": "../../azure-networking/azure-networking.md"
+    },
+    {
+      "title": "Lab 3: Inspect Dedicated Exadata Infrastructure",
+      "description": "Review preprovisioned dedicated Exadata infrastructure and its relationship to VM clusters and database servers. This lab uses existing resources.",
+      "filename": "../../exadata-infrastructure/exadata-infrastructure.md"
+    },
+    {
+      "title": "Lab 4: Inspect OCI management and database operations",
+      "description": "Inspect OCI resource mapping, cluster and database operations, backups, Recovery Service policy configuration, and Autonomous disaster recovery.",
+      "filename": "../../oci-management/oci-management.md"
+    },
+    {
+      "title": "Lab 5: Review monitoring across Azure and OCI",
+      "description": "Compare the monitoring information exposed by Azure with the database metrics available in OCI. Use existing metrics without changing workload or alert configuration.",
+      "filename": "../../monitoring/monitoring.md"
+    },
+    {
+      "title": "Lab 6: Clean up resources and review costs",
+      "description": "Remove the resources you personally created in Lab 1 and review cost visibility. Keep facilitator-owned databases, networks, infrastructure, and shared storage in place.",
+      "filename": "../../cleanup/cleanup.md"
+    }
+  ]
+}
